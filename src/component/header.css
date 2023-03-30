@@ -1,0 +1,50 @@
+.firstpage-wrapper{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #48555B;
+    min-height: 100vh;
+    background: url("img/firstpage.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 62px;
+    padding-top: 42px;
+    box-sizing: border-box;
+}
+
+.logo{
+    transition: 1s ease-in-out all;
+}
+.title1{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 7px;
+    color: white;
+    margin-bottom:0;
+    margin-top: 70px;
+}
+.title-par{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    margin: 0;
+}
+.scroll{
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 4px;
+    color: white;
+    text-decoration: none;
+    transition: 1s ease-in-out all;
+
+}
+.scroll:hover{
+    text-shadow:  2px 4px 6px black;
+    transform: scale(2);
+}
